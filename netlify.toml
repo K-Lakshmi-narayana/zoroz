@@ -1,11 +1,8 @@
 [build]
-  # The command to build your React app
   command = "npm run build"
-  # The directory to publish after building (default for React)
   publish = "build"
 
 [[redirects]]
-  # Redirect all requests to index.html (useful for client-side routing in a React SPA)
   from = "/*"
   to = "/index.html"
   status = 200
